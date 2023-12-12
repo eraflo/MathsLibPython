@@ -13,6 +13,8 @@ Also, precise your change in the __Read.me__
 
 Commande to make the distrib : python setup.py sdist
 
+Then, pip install the tar.gz file
+
 ## Actually
 - Beginning of the Arithmetic module :
   - __pgcd(a, b)__ : give the pgcd of a and b using the Euclidean Algorithm
@@ -27,3 +29,6 @@ Commande to make the distrib : python setup.py sdist
   - __r2(X, Y)__ : give the determination coefficient
   - __display(X, Y)__ : display the values above in the console and display the dot clouds with the initial values and the regression line
   - __valY(X, Y, x)__ : give the Y value for a x given based on the regression line determined
+
+- A module for Test Stat
+  - __seuil_test__ : return the seuil of a test, when Chi2 is superior to the seuil, your hypothesis is null
