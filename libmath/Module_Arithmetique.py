@@ -1,4 +1,4 @@
-def pgdc(a, b):
+def pgcd(a, b):
     """
     Calcul of the PGCD of a and b by the Euclidean algorithm
     
