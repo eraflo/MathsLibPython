@@ -12,6 +12,7 @@ Add your new modules in the libmath repo. Then, update the __ __init__ __ functi
 Also, precise your change in the __Read.me__
 
 Commande to make the distrib : python setup.py sdist
+
 Then, pip install the tar.gz file
 
 ## Actually
