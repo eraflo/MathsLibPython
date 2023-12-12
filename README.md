@@ -11,7 +11,7 @@ To import in your project, download this file : [Download](https://github.com/er
 Add your new modules in the libmath repo. Then, update the __ __init__ __ function to add your module. Don't forget to update setup.py for the version and to change the __tar.gz file__ in the __dist repo__.
 Also, precise your change in the __Read.me__
 
-Commande to make the distrib : python setup.py sdist
+Command to make the distrib : python setup.py sdist
 
 Then, pip install the tar.gz file
 
