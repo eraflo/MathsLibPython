@@ -29,3 +29,6 @@ Then, pip install the tar.gz file
   - __r2(X, Y)__ : give the determination coefficient
   - __display(X, Y)__ : display the values above in the console and display the dot clouds with the initial values and the regression line
   - __valY(X, Y, x)__ : give the Y value for a x given based on the regression line determined
+
+- A module for Test Stat
+  - __seuil_test__ : return the seuil of a test, when Chi2 is superior to the seuil, your hypothesis is null
