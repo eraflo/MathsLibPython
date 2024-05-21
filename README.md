@@ -32,3 +32,5 @@ Then, pip install the tar.gz file
 
 - A module for Test Stat
   - __seuil_test__ : return the seuil of a test, when Chi2 is superior to the seuil, your hypothesis is null
+  - __calculate_ddl__ : return the ddl of the matrix
+  - __generate_excel__ : take a matrix with 1st line = row headers and 2st line = column headers, a matrix with observed values and alpha the value of the critics zone. Generate an excel file with the observed values array, the theorical values array, the number of ddl, the chi2 observed, the chi2 theorical and if we accept the hypothesis or not
